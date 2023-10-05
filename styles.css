@@ -38,6 +38,9 @@ h2 {
     text-align: center;
     font-weight: bold;}
 
+.left {
+    text-align: center;}
+
 .right {
     text-align: center;}
 
@@ -49,3 +52,21 @@ h2 {
 
 .pre {
     font-size: 0.75rem;}
+
+@media only screen and (max-width: 480px) {
+    .html {
+        font-size: 8px;
+    }
+
+    .card {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 470px;
+        grid-template-rows: auto auto;
+        grid-template-areas:'left' 'right';
+    }
+
+    .left img {
+        height: 200px;
+        width: auto;
+    }
