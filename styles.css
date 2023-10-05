@@ -61,7 +61,7 @@ h2 {
     .card {
         display: grid;
         justify-content: center;
-        grid-template-columns: 470px;
+        grid-template-columns: 370px;
         grid-template-rows: auto auto;
         grid-template-areas:'left' 'right';
     }
